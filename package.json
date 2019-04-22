@@ -1,0 +1,20 @@
+{
+  "name": "braille-md5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "build": "browserify app.js -o dist/bundle.js"
+  },
+  "author": "Tyler Maddox",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "browserify": "^16.2.3",
+    "md5-file": "^4.0.0",
+    "move-file": "^1.2.0"
+  }
+}
